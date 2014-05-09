@@ -1,0 +1,21 @@
+http://en.wikipedia.org/wiki/Lamborghini_Aventador
+
+Photo Credit: <a
+href="http://www.flickr.com/photos/10797471@N02/10619307795/">Ciorra
+Photography</a> via <a href="http://compfight.com">Compfight</a> <a
+href="https://creativecommons.org/licenses/by-nc-nd/2.0/">cc</a>
+
+http://en.wikipedia.org/wiki/Audi_R8
+
+Photo Credit: <a
+href="http://www.flickr.com/photos/22526198@N07/8453779285/">Axion23</a>
+via <a href="http://compfight.com">Compfight</a> <a
+
+Photo Credit: <a
+href="http://www.flickr.com/photos/25349554@N03/4317339757/">dez&
+john3313</a> via <a href="http://compfight.com">Compfight</a> <a
+href="https://creativecommons.org/licenses/by-nc-sa/2.0/">cc</a>
+cars.images:
+	audi.jpg
+	ford.jpg
+	lamborghini.jpg
