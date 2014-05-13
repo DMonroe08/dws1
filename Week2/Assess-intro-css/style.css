@@ -16,7 +16,7 @@ h1, h2 {
 p {
 	color: #665544;
 	}
-	
+/*Not sure if #container is correct or "p em" is */	
 #container strong {
 	color: green;
 	}
