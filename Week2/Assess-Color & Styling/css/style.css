@@ -1,0 +1,27 @@
+h1{ 
+	background-color: white;
+	}
+
+p#four{
+	background-color: rgb(178,18,18);
+	color: #fff296;
+	}
+	
+p#three{
+	background-color: rgb(9,113,178);
+	color: rgba(20,185,204, .9);
+	}
+	
+p#two{
+	background-color: #fffc19;
+	opacity: .75;
+	color: #b21268;
+	}
+	
+p#one{ 
+	background-color: #1485cc;
+	}
+	
+p#zero{
+	background-color: rgba(255,0,0,.2);
+	}

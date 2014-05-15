@@ -1,0 +1,30 @@
+h1{
+    font-family: Georgia, Times serif;
+    font-size: 250%;
+    box-shadow: -2px, 2px, #666666;
+}
+
+h2{ font-family: Gill Sans, Arial, sans-serif;
+    font-size: 90%;
+}
+
+p{
+    font-family: Arial, Verdana, sans-serif;
+}
+
+h1, h2, h3, link{
+    font-weight: normal;
+}
+
+p#intro{
+    font-weight: bold;
+}
+
+h3{
+    font-size: 150%;
+}
+
+p#credits{
+    font-style: italic;
+}
+

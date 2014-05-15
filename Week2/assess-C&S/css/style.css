@@ -1,0 +1,21 @@
+h1{
+    background-color:white;
+    }
+
+p #four{
+    background-color: rgb(178,18,18);
+}
+
+p#three{
+    background-color: rgb(9,113,178);
+}
+
+p #two{
+    background-color: #fffc19;
+    opacity: .75;
+}
+
+p #one{
+    background-color: #1485cc;
+}
+
