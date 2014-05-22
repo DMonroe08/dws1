@@ -1,0 +1,137 @@
+
+
+div#transport1{
+	height: 80%;
+	Width: 80%;
+	}
+	
+p.Lamborghini{
+	font-family: times;
+	font-color: blue;
+	width: 70%;
+	height: 70%;
+	background color: dark gray;
+	float: right;
+	}
+	
+img.lamborghini{
+	width: 20%;
+	hight: 20%;
+	margin: 10px;
+	float: right;
+}
+
+body{
+	width: 95%;
+	margin: 0, auto;
+	background-color: #949494;
+	
+
+	}
+	
+/* attempted to change the default display but was unsuccessful */
+div{
+	display: in-line;
+	margin-right: 30px;
+	}
+	
+h1#top{
+	font-family: Hoefler, Marion, Optima;
+	font-style: bold;
+	color: rgb(0,224,255);
+	text-align: center;
+	background-color:#3b3b3b;
+	margin: 3px;
+	border-style: groove;
+	box-shadow: -7px 7px 9px 8px hsla(11, 5%, 18%, 1);
+	
+	}
+	
+
+h2.lamborghini{
+	font-family: Palatino, Optima, Times New Roman;
+	font-style: small caps;
+	color: rgba(255, 173, 25, 1);
+	text-align: right;
+	width: 940px;
+	padding: 10px 7px;
+	border: 1px 10px, dotted;
+	margin: 20px 2px 2px 2px;
+}
+	
+p.lamborghini{
+	font-family: Athelas, Optima, Marion;
+	line-height: 125%;
+	color:rgba(163, 106, 0, 1);
+	background-color: rgba(26, 26, 26, 1);
+	text-align: right;
+	width:90%px;
+	text-align: right;
+	padding: 5px;
+	margin: 2px;
+	float: right;
+	}
+
+img.lamborghini{
+
+	
+	
+h2.audi{
+	font-family: Trajan Pro, Optima, Hoefler;
+	font-style: small caps;
+	color: rgba(0, 161, 255, 1);
+	text-align: left;
+	width: 940px;
+	border: 10px 7px, dotted;
+	background-color: rgba(63, 66, 62, 0.8);
+	border-radius: .4;
+	padding: 10px 7px;
+	margin: 20px 2px 2px 2px;
+	}
+
+	
+p.audi{
+	font-family: Athelas, Optima, Marion;
+	line-height: 125%;
+	color:rgba(0, 90, 143, 1);
+	background-color: rgba(26, 26, 26, 1);
+	width: 940px;
+	text-align: left;
+	padding: 5px;
+	margin: 2px;
+	}
+	
+h2.ford{
+	font-family: Lithos Pro, Verdana, Adobe Song std;
+	font-style: small caps;
+	color: rgba(110, 236, 60, 1);
+	text-align: center;
+	width: 940px;
+	border: 12px 10px, round;
+	background-color: rgba(63, 66, 62, 0.8);
+	padding: 1px 7px;
+	margin: 20px 2px 2px 2px;
+	}
+	
+p.ford{
+	font-family: Athelas, Optima, Marion;
+	line-height: 125%;
+	text-align: center;
+	color:rgba(54, 153, 15, 1);
+	width: 940px;
+	background-color:rgba(26, 26, 26, 1);
+	padding: 5px;
+	margin: 2px;
+	}
+	
+	/* Not sure how to get a shadow behind an image */
+imgimages/lamborghini.jpg{
+	box-shadow: 4px 3px 4px rgba(163, 106, 0, 1);
+	}
+/* taking a different approach */
+figure#lamborghini{
+	box-shadow: 4px 3px 4px rgba(163, 106, 0, 1);
+	border-image: lamborghini.jpg 4px round;
+	}
+
+	
