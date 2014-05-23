@@ -1,7 +1,7 @@
 
 /* background mark-up */
 body{
-	width: 95%;
+	width: 900px;
 	margin: 0, auto;
 	background-color: #949494;
 	
@@ -17,13 +17,19 @@ div{
 	margin 10%;
 	
 	}
+p#start{ 
+	background-images: url("images/presence.png");
+	background-repeat: repeat-x;
+	font-weight: bold;
+
+	}
 	
 h1#top{
-	font-family: Hoefler, Marion, Optima;
+	font-family: San-Serif, Times, Verdana;
 	font-style: bold;
 	color: rgb(0,224,255);
 	text-align: center;
-	background-color:#3b3b3b;
+	
 	margin: 3px;
 	border-style: groove;
 	box-shadow: -7px 7px 9px 8px hsla(11, 5%, 18%, 1);
@@ -31,7 +37,7 @@ h1#top{
 	}
 	
 
-h2#lamborghini{
+h2#lamborghini-head{
 	
 	font-style: small caps;
 	text-align: left;
@@ -42,36 +48,28 @@ h2#lamborghini{
 }
 	
 p#lamborghini-info{
-	font-family: Athelas, Optima, Marion;
+	font-family: San-Serif, Times, Verdana;
 	line-height: 125%;
 	color:rgba(163, 106, 0, 1);
 	text-align: right;
-	width:30%px;
-	text-align: left;
 	padding: 5px;
 	margin: 2px;
+	}
+	
+.lamborghini{
 	float: left;
-	text
+	margin: 15px;
 	}
 
 
-
 	
-	
-
-
-	
-
-	
-
-	/* Not sure how to get a shadow behind an image */
-imgimages/lamborghini.jpg{
-	box-shadow: 4px 3px 4px rgba(163, 106, 0, 1);
-	}
-/* taking a different approach */
-figure#lamborghini{
-	box-shadow: 4px 3px 4px rgba(163, 106, 0, 1);
-	border-image: lamborghini.jpg 4px round;
+h3#gallery{
+	background-image: href("images/photo.png");
+	background-image: fixed;
 	}
 
+
 	
+
+	
+
