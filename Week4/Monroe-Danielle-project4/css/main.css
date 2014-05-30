@@ -1,0 +1,171 @@
+
+/* background mark-up */
+/* Not sure why images will not link to page */
+body{
+	width: 95%;
+	margin: 0, auto;
+	background: url(../images/presence.png), #949494;
+	
+	}
+/* paragraph with gradient background */	
+p#start{
+	background-repeat: repeat-x;
+	background: linear-gradient(#5EA5A3, #147A77);
+	font-weight: bold;
+	width: 90%;
+	margin: 20px;
+	text-align: center;
+	
+	}
+	
+#cars{
+	float: left;
+	width: 500px;
+	height: 70%;
+	border: 10px solid rgba( 63, 66, 62, 0.8);
+	margin: 20px;
+	padding: 20px;
+	background-color: #67D3D0;
+	clear: left;
+	}
+	
+@font-face {
+	font-family: "cantarell font";
+	src: url(..fonts/cantarell.font);
+	}
+p{ 
+	font-family:"cantarell font", times, verdana;
+	line-height: 125%;
+	width: 70%;
+	height: 20%;
+	color: #C8CACC;
+	background-color: rgba( 63, 66, 62, 0.8);
+	text-align: left;
+	padding: 20px;
+	margin: 20px;
+	}
+	
+h1#top{
+	font-family: San-Serif, Times, Verdana;
+	font-style: italic;
+	font-size: 200%;
+	color: #22EFE9;
+	text-align: center;
+	background-color:#3b3b3b;
+	margin: 3px;
+	border-style: groove;
+	border-width: 4px
+	box-shadow: -7px 7px 9px 8px hsla(11, 5%, 18%, 1);
+	}
+	
+
+h2.lamborghini{
+	font-family: Verdana, Optima, Times New Roman;
+	font-transform: small caps;
+	color: rgba(255, 173, 25, 1);
+	text-align: right;
+	width: 940px;
+	padding: 10px 7px;
+	border: 10px, dotted rgba(245, 176, 75, 1) ;
+	margin: 20px 2px 2px 2px;
+}
+
+/* took out "clear both" to get gallery to float next to car text */
+aside#gallery{
+	float:left;
+	background-color: #088480; 
+	background-image: url(../images/photo.png);
+	background-repeat: no-repeat;
+	background-position: top right;
+	padding: 20px;
+	margin: 20px;
+	width: 30%;
+	height: 70%;
+	border: 10px solid #5ED3D0;
+	
+	}
+/* attempted to give a bottom border under the cars */
+#car1, #car2, #car3{
+	padding: 10px 1px;
+	border: 0px 0px 10px 0px solid;
+	}
+
+	
+.navigation{
+	float: left;
+	clear: both;
+	margin: 20px;
+	width 50%;
+	height: 20%;
+	text-align: left;
+	color: #0AE5DF;
+	background-color: rgba(93,244,240, .7);
+	padding: 25px;
+	}
+	
+table{
+	background-color: #7F7A7A;
+	padding: 20px;
+	margin: 10px 20px;
+	width: 30%;
+	height: 20%;
+	border: 10px solid #30C1C1;
+	line-height: 125%;
+	float: left;
+	clear: both;
+	text-align: center;
+	border-spacing: 3px;
+	text-transform: uppercase;	
+	line-height: 90%;
+	}
+	
+.even{
+	background-color: #B7BCBC;
+	border: 10px solid ;
+	}
+
+.odd{
+	background-color: #E8F9F9;
+	border: 10px solid;
+	}
+	
+.even:hover{
+	background: #1DDBD6;
+	}
+
+.odd:hover{
+	background: #1DDBD6;
+	}	
+	
+th#thead{
+	text-align: center;
+	text-style: small caps;
+	color: #27CCCC;
+	opacity: .7%;
+	width: 400px;
+
+	}
+	
+form{
+	background-color: rgba(217, 219, 219, .8);
+	float: right;
+	padding: 15px;
+	margin: 20px;
+	width: 40%;
+	height: 30%;
+	border: 10px solid #30C1C1;
+	font-size: normal;
+	text-align: left;
+	color: #000	
+	}
+	
+#name, #email: focus{
+	color: #D9DBDB;}
+	
+#sumbit:hover{
+	background: linear-gradient (#B5BCBC, #808284);
+	}
+	
+header{
+	background-color: rgba(183, 188, 188, .6);
+	}

@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 	<head>
 		<meta charset="utf-8"/>
@@ -7,28 +8,32 @@
 	</head>
 	
 	<body>
-		
-		<h1 id="top"> My Favorite Transportation</h1>
-			<br>
+		<header>
+			<h1 id="top"> My Favorite Transportation</h1>
+				<br>
 			
-			<blockquote> <em>“In less enlightened times, the best way to impress women
-			was to own a hot car. But women wised up and realized it was better to
-			buy their own hot cars so they wouldn't have to ride around with jerks.”</em> -Scott Adams
-			</blockquote>
-			<p id="start">
-			Cars one of the best inventions man has yet to create. They come in
-			different shapes, sizes, and colors. Below is a list list of some of my
-			favorites.</p>
-		<div>
-			<ul>
-				<li><a href="#lamborghini">Lamborghini</a></li>
-				<li><a href="#audi">Audi</a></li>
-				<li><a href="#ford"> Ford</a></li>
+				<blockquote> <em>“In less enlightened times, the best way to impress women
+				was to own a hot car. But women wised up and realized it was better to
+				buy their own hot cars so they wouldn't have to ride around with jerks.”</em> -Scott Adams
+				</blockquote>
+				<p id="start">
+				Cars one of the best inventions man has yet to create. They come in
+				different shapes, sizes, and colors. Below is a list list of some of my
+				favorites.</p>
 			
-			</ul>
-		</div>
+			<nav>
+				<div class="navigation">
+					<ul>
+						<li><a href="#lamborghini">Lamborghini</a></li>
+						<li><a href="#audi">Audi</a></li>
+						<li><a href="#ford"> Ford</a></li>			
+					</ul>
+				</div>
+			</nav>
+		</header>
 			<br>
-		<div id="cars">
+	
+		<article id="cars">
 		<h2 id="lamborghini"> Lamborghini Aventador</h2>
 		
 	
@@ -91,58 +96,122 @@
 			who works and is sponsored by both Monster and DC. He is
 			also my son's favorite driver!!</p>
 
-		</div>
-			
+		</article>
+		<aside id="gallery">	
 		<h3> Gallery </h3>
-		<div>
-		<ul id="gallery">
-			<li id="car1"> 
-				<figure>
-				<a href="http://www.flickr.com/photos/10797471@N02/10619307795/"> <br>Ciorra
-				Photography</a> via <a href="http://compfight.com">Compfight</a> <a
-				href="https://creativecommons.org/licenses/by-nc-nd/2.0/">cc <br><br></a>
-
+			<ul>
+				<li id="car1"> 
+					<figure>
+					<a href="http://www.flickr.com/photos/10797471@N02/10619307795/"> <br>Ciorra
+					Photography</a> via <a href="http://compfight.com">Compfight</a> <a
+					href="https://creativecommons.org/licenses/by-nc-nd/2.0/">cc <br><br></a>
 			
-				<img src="images/lamborghini.jpg"
+					<img src="images/lamborghini.jpg"
 					alt="Lamborghini Aventador"
 					width= "300"
 					height= "200" /> 
-				<figcaption> The luxurious Lamborghini Aventador </figcaption>
+					<figcaption> The luxurious Lamborghini Aventador </figcaption>
+					</figure>
+				</li>
+				<li id="car2">
+					<figure>
+				<a href="http://www.flickr.com/photos/22526198@N07/8453779285/"></a>
+				via Axion23<a href="http://compfight.com">Compfight<br><br></a> 
+	
+				<img src="images/audi.jpg"
+				alt="Audi R8" 
+				width= "300"
+				height= "200"/>
+				<figcaption> The Chic Audi R8 </figcaption>
 				</figure>
 			</li>
-			<li id="car2">
+			<li id="car3"> 
 				<figure>
-			<a href="http://www.flickr.com/photos/22526198@N07/8453779285/"></a>
-			via Axion23<a href="http://compfight.com">Compfight<br><br></a> 
-
-			<img src="images/audi.jpg"
-			alt="Audi R8" 
-			width= "300"
-			height= "200"/>
-			<figcaption> The Chic Audi R8 </figcaption>
-			</figure>
-		</li>
-		<li id="car3"> 
-			<figure>
-			<a href="http://www.flickr.com/photos/25349554@N03/4317339757/">dez&
-			john3313</a> via <a href="http://compfight.com">Compfight</a>  <a
-			href="https://creativecommons.org/licenses/by-nc-sa/2.0/">cc<br><br></a>
-			<img src="images/ford.jpg"
-			alt="Ford Fiesta"
-			width= "300"
-			height= "200" />
-			<figcaption> The Ford Fiesta. One quick little monster </figcaption>
-			</figure>
-		</li>
+				<a href="http://www.flickr.com/photos/25349554@N03/4317339757/">dez&
+				john3313</a> via <a href="http://compfight.com">Compfight</a>  <a
+				href="https://creativecommons.org/licenses/by-nc-sa/2.0/">cc<br><br></a>
+				<img src="images/ford.jpg"
+				alt="Ford Fiesta"
+				width= "300"
+				height= "200" />
+				<figcaption> The Ford Fiesta. One quick little monster </figcaption>
+				</figure>
+			</li>
 		</ul>
-	</div>	
-	<div>
-		<ol id="nav">
+		</aside>
+
+	
+	<table>
+		<th id="thead"> Local Car Shows </th>
+		<tbody>
+	<tr>
+		<th scope="col"> Day </th>
+		<th scope="col"> Time </th>
+		<th scope="col"> Place </th>
+	</tr>
+	<tr class="even">
+		<td> Monday</td>
+		<td> 6pm </td>
+		<td>Goshen Horse Track</td>
+	</tr>
+	<tr class="odd">
+		<td> Tuesday </td>
+		<td> 5pm  </td>
+		<td> Pinebush HS </td>
+	</tr>
+	<tr class="even">
+		<td> Wednesday </td>
+		<td> 7pm </td>
+		<td> Bear Mountain </td>
+	</tr>
+	</tbody>
+	</table>
+	<form>
+		<fieldset>
+			<legend> Survey </legend>
+		<p>
+		<label for="name"> Your Name: </label>
+		<input type="text" name="name" 
+				placeholder="Type Your Name Here" />
+		
+		<label for="email"> Email: </label>
+		<input type="email" name="email" required="required" 
+				placeholder="Type Your Email Here" />
+		</p>
+		<p>
+			<label> Would you like...? </label>
+			<input type="checkbox" name="spam"
+				value= " spam"
+				checked= "checked" />spam
+			<input type="checkbox" name="news"
+				value="news" />newsletter"
+		</p>
+		<p> 
+		 <label> "Which is you favorite car" </label>
+			<select name= "choose" id="choose">
+				<option value= "la"> "Lamborghini Aventador" </option>
+				<option value="r8"> "Audi R8" </option>
+				<option value="fd"> "Ford Fiesta </option>
+			</select>
+			</p>
+			<p>
+				<legend> Feedback about the site </legend>
+				<textarea name="feedback"> 
+					
+				</textarea>
+			</p>
+			<input type="submit" value="Submit" />
+		</fieldset>
+	</form>
+	<footer>	
+	<div class="navigation">
+		<ol>
 			<li><a href="#top"> Top</a></li>
 			<li><a href="#lamborghini">Lamborghini</a></li>
 			<li><a href="#audi">Audi</a></li>
 			<li><a href="#ford"> Ford</a></li>
 		</ol>
 	</div>
+	</footer>
 	</body>
 </html>
