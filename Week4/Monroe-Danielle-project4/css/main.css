@@ -95,7 +95,7 @@ aside#gallery{
 	float: left;
 	clear: both;
 	margin: 20px;
-	width 50%;
+	width: 50%;
 	height: 20%;
 	text-align: left;
 	color: #0AE5DF;
@@ -141,7 +141,7 @@ th#thead{
 	text-align: center;
 	text-style: small caps;
 	color: #27CCCC;
-	opacity: .7%;
+	opacity: .7;
 	width: 400px;
 
 	}
@@ -159,7 +159,7 @@ form{
 	color: #000	
 	}
 	
-#name, #email: focus{
+#name, #email:focus{
 	color: #D9DBDB;}
 	
 #sumbit:hover{
